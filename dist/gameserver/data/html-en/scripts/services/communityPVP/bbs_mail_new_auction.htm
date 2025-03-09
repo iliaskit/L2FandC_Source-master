@@ -1,0 +1,314 @@
+<html noscrollbar>
+<title>Community Board</title>
+<body>
+<table border=0 cellpadding=0 cellspacing=0 height=33 width=778>
+	<tr>
+		<td><button value="" action="bypass _bbshome" width=74 height=31 back="cb.home_down" fore="cb.home"/></td>
+		<td><button value="" action="bypass _bbsnpcs" width=94 height=31 back="cb.services_down" fore="cb.services"/></td>
+		<td><button value="" action="bypass _bbsevent" width=89 height=31 back="cb.events_down" fore="cb.events"/></td>
+		<td><button value="" action="bypass _bbsloc" width=99 height=31 back="cb.ranking_down" fore="cb.ranking"/></td>
+		<td><button value="" action="bypass _bbsclan" width=77 height=31 back="cb.clan_down" fore="cb.clan"/></td>
+		<td><button value="" action="bypass _bbsbosslist_" width=101 height=31 back="cb.raidboss_down" fore="cb.raidboss"/></td>
+		<td><button value="" action="bypass _maillist_0_1_0_" width=99 height=31 back="cb.auction_down" fore="cb.auction"/></td>
+		<td><button value="" action="bypass _dropCalc" width=95 height=31 back="cb.database_down" fore="cb.database"/></td>
+		<td><button value="" action="bypass _bbspage:Donate/donate" width=94 height=31 back="cb.donate_down" fore="cb.donate"/></td>
+	</tr>
+</table>
+<table border=0 cellpadding=0 cellspacing=0 width=790>
+<tr>
+<td width=5></td>
+<td align=left valign=top>
+			<table border=0 cellpadding=0 cellspacing=0 width=726 height=10 background="cb.bg3">
+						<td width=375>
+								<button value="Auction List" action="bypass _bbsAuction_ 1 _ -1 _ All _  _ 1 _ 0 _ 0 _ 0 _ 0" width=375 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+						</td>
+						<td width=375>
+								<button value="Your Auctions" action="bypass _bbsNewAuction" width=375 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+						</td>
+				</tr>
+		</table>
+		<br>
+		<table border=0 cellspacing=0 cellpadding=0 width=775 height=25>
+				<tr>
+						<td width=4></td>
+						<td width=316 height=25 background="L2UI_CT1.Windows_DF_Drawer_Bg">
+								<center><font name="hs12" color="FFFFFF">Place an item for Auction</font></center>
+						</td>
+						<td width=10></td>
+						<td width=533 background="L2UI_CT1.Windows_DF_Drawer_Bg">
+								<center><font name="hs12" color="FFFFFF">Current Auctions</font></center>
+						</td>
+				</tr>
+		</table>
+      <table border=0 cellspacing=0 cellpadding=0 width=720 height=370>
+         <tr>
+            <td width=5>
+            </td>
+            <td width=250>
+               <table border=0 cellspacing=0 cellpadding=0 height=370>
+                  <tr>
+                     <td width=250 height=115>
+                        <table border=0 cellspacing=0 cellpadding=0 width=250 height=115 bgcolor=14140f>
+                              <tr>
+                                      <td height=5>
+                                      <br>
+                                      </td>
+                              </tr>
+                              <tr>
+                                      <td align=center height=15>
+                                                <font name=__SYSTEMWORLDFONT>Auctionable Items</font>
+                                      </td>
+                              </tr>
+                              <tr>
+                                      <td background="L2UI_CT1.Windows_DF_TooltipBG">
+                                              <table width=250 height=105>
+                                                      <tr>
+                                                              <td width=10>
+                                                              </td>
+                                                              <td>
+                                                                      <table border=0 cellspacing=1 cellpadding=1 width=236 height=105>
+                                                                              %auctionableItems%
+                                                                      </table>
+                                                              </td>
+                                                              <td>
+                                                                      <table width=20 height=120>
+                                                                              <tr>
+                                                                                      <td>
+                                                                                              <button value="" action="bypass _bbsNewAuction_ %currentItem% _ 0" width=15 height=15 back="L2UI_CH3.joypad_shortcut_down" fore="L2UI_CH3.joypad_shortcut">
+                                                                                      </td>
+                                                                              </tr>
+                                                                              <tr>
+                                                                                      <td>
+                                                                                              <button value="" action="bypass _bbsNewAuction_ %currentItem% _ %prevLine%" width=15 height=15 back="L2UI_CH3.shortcut_nextv_down" fore="L2UI_CH3.shortcut_nextv">
+                                                                                      </td>
+                                                                              </tr>
+                                                                              <tr>
+                                                                                      <td height=20>
+                                                                                      </td>
+                                                                              </tr>
+                                                                              <tr>
+                                                                                      <td>
+                                                                                              <button value="" action="bypass _bbsNewAuction_ %currentItem% _ %nextLine%" width=15 height=15 back="L2UI_CH3.shortcut_prevv_down" fore="L2UI_CH3.shortcut_prevv">
+                                                                                      </td>
+                                                                              </tr>
+                                                                              <tr>
+                                                                                      <td>
+                                                                                              <button value="" action="bypass _bbsNewAuction_ %currentItem% _ %lastLine%" width=15 height=15 back="L2UI_CH3.joypad_shortcut_down" fore="L2UI_CH3.joypad_shortcut">
+                                                                                      </td>
+                                                                              </tr>
+                                                                      </table>
+                                                              </td>
+                                                      </tr>
+                                              </table>
+                                      </td>
+                              </tr>
+                      </table>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td height=20>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <table border=0 cellspacing=0 cellpadding=0 width=280 height=155 bgcolor=14140f>
+                           <tr>
+                              <td height=10>
+                                 <br>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td height=20>
+                                 <font color=ae9977>Items to be Auctioned</font>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td height=10>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td height=60>
+                                 <center>
+                                    <table width=250 height=55 bgcolor=0d0d0a>
+                                       <tr>
+                                          <td height=10>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td width=250 height=45>
+                                             <center>
+                                                <table width=230 height=45>
+                                                   <tr>
+                                                      <td width=50 height=45>
+                                                         <center>
+                                                            %choosenImage%
+                                                         </center>
+                                                      </td>
+                                                      %choosenItem%
+                                                   </tr>
+                                                </table>
+                                             </center>
+                                          </td>
+                                       </tr>
+                                    </table>
+                                 </center>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>
+                                 <table width=280 height=55>
+                                    <tr>
+                                       <td width=40 align=left>
+                                          <font color=ae9977>Quantity</font>
+                                       </td>
+                                       <td width=20>
+                                       </td>
+                                       <td width=160 align=left>
+                                          %quantity%
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td width=50 align=left>
+                                          <font color=ae9977>Price per item</font>
+                                       </td>
+                                       <td width=20 align=right>
+                                          
+                                       </td>
+                                       <td width=160 align=left>
+                                          <edit var="sale_price" value="" width=160 height=12>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td width=50 align=left>
+                                          <font color=ae9977>Coin</font>
+                                       </td>
+                                       <td width=20 align=right>
+                                       </td>
+                                       <td width=160 align=left>
+                                          %drop_box%
+                                       </td>
+                                    </tr>
+                                 </table>
+                              </td>
+                           </tr>
+                        </table>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td height=20>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <table border=0 cellspacing=5 cellpadding=0 width=280 height=105 bgcolor=14140f>
+                           <tr>
+                              <td width=40 align=left>
+                                 <font color=ff0000 name=__SYSTEMWORLDFONT>Sale Fee TAX </font>
+                              </td>
+                              <td width=20>
+                                 <img src="icon.Adena" width="16" height="16">
+                              </td>
+                              <td width=120 align=left>
+                                 <font color=ff0000> %saleFee%</font>
+                              </td>
+                           </tr>
+						   <tr><td></td></tr>
+                           <tr>
+                              <td width=180>
+                                 <table width=180 bgcolor=14140f cellspacing=5 cellpadding=0 height=25>
+                                    <tr>
+                                       <td width=16>
+                                          <img src="icon.Adena" width="16" height="16">
+                                       </td>
+                                       <td width=70 align=left>
+                                          <font color=FFFFFF>%adena% -Adena</font>
+                                       </td>
+                                    </tr>
+                                 </table>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td width=180>
+                                 <table width=180 bgcolor=14140f cellspacing=3 cellpadding=0 height=25>
+                                    <tr>
+                                       <td width=16>
+                                          <img src="L2UI_CT1.Icon_DF_Common_Weight" width="16" height="16">
+                                       </td>
+                                       <td width=70 align=left>
+                                          <font color=FFFF00>%dc% -Donator Coin</font>
+                                       </td>
+                                    </tr>
+                                 </table>
+                              </td>
+                           </tr>
+                        </table>
+                     </td>
+                  </tr>
+               </table>
+            </td>
+            <td width=9>
+            </td>
+            <td width=470>
+               <table border=0 cellspacing=0 cellpadding=0 width=430 height=405 bgcolor=14140f>
+                  <tr>
+                     <td height=10>
+                        <br>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <font color=ae9977>Item List</font><font color=7c786d>(%auctioned%/1) One Item can add on Auction.</font>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <table border=0 cellspacing=0 cellpadding=0 width=470>
+                           <tr>
+                              <td width=470>
+                                 <table border=0 cellspacing=0 cellpadding=0 width=470 bgcolor=23221d>
+                                    <tr>
+                                       <td width=260>
+                                          <button value="Item" action="bypass _bbsNewAuction_ %currentItem% _ %curLine%" width=260 height=25 back="L2UI_CT1.ListCTRL_DF_Title_Down" fore="L2UI_CT1.ListCTRL_DF_Title">
+                                       </td>
+                                       <td width=55>
+                                          <button value="Grade" action="bypass _bbsNewAuction_ %currentItem% _ %curLine%" width=55 height=25 back="L2UI_CT1.ListCTRL_DF_Title_Down" fore="L2UI_CT1.ListCTRL_DF_Title">
+                                       </td>
+                                       <td width=55>
+                                          <button value="Quantity" action="bypass _bbsNewAuction_ %currentItem% _ %curLine%" width=55 height=25 back="L2UI_CT1.ListCTRL_DF_Title_Down" fore="L2UI_CT1.ListCTRL_DF_Title">
+                                       </td>
+                                       <td width=100>
+                                          <button value="Sale Price" action="bypass _bbsNewAuction_ %currentItem% _ %curLine%" width=100 height=25 back="L2UI_CT1.ListCTRL_DF_Title_Down" fore="L2UI_CT1.ListCTRL_DF_Title">
+                                       </td>
+                                    </tr>
+                                 </table>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td width=470>
+                                 <font color=ae9977>%auctionItems%</font>
+                              </td>
+                           </tr>
+                        </table>
+                     </td>
+                  </tr>
+               </table>
+            </td>
+         </tr>
+      </table>
+      <table width=720>
+         <tr>
+            <td width=5>
+            </td>
+            <td width=250>
+               <br>
+               %NewAuctionButton%
+            </td>
+            <td width=9>
+            </td>
+            <td width=470>
+               <br>
+            </td>
+         </tr>
+      </table>
+   </body>
+</html>

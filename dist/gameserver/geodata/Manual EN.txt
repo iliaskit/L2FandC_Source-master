@@ -1,0 +1,18 @@
+Geodata installation:
+
+1. In hostsconfig.xml add your external ip in the places below:
+	<host id="SERVER_ID" ip="EXTERNAL_IP" inner_ip="INTERNAL_IP" port="PORT"/>
+
+2. Put geoeng_l2s.jar in lib folder.
+
+3. Place the geodatas files in the geodata folder.
+
+5. In the server launcher file .bat/.sh change it to the following:
+java -server -Dfile.encoding=UTF-8 -Xmx1G -cp config;./lib/* l2s.gameserver.GameServer (Or similar)
+
+After config; add ./lib/geoeng_l2s.jar;
+
+It should look like:
+java -server -Dfile.encoding=UTF-8 -Xmx1G -cp config;./lib/geoeng_l2s.jar;./lib/* l2s.gameserver.GameServer (Or similar)
+
+Save.

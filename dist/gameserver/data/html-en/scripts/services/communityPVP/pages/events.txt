@@ -1,0 +1,2 @@
+<center><font name=__SYSTEMWORLDFONT color=696969>There is no GM Event yet.</font>
+<button value=Test width=120 height=25 back=cb.mx_button_down fore=cb.mx_button></center>

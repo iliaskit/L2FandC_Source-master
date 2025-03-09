@@ -1,0 +1,18 @@
+Установка геодаты:
+
+1. Прописать в конфиг hostsconfig.xml ваш внешний IP адрес, на который была привязана геодата:
+	<host id="ID_СЕРВЕРА" ip="ВАШ_ВНЕШНИЙ_IP" inner_ip="ВАШ_ВНУТРЕННИЙ_IP" port="ПОРТ"/>
+
+2. Положить файл geoeng_l2s.jar в папку lib, которая находиться в корне игрового сервера.
+
+3. Положить файлы геодаты в папку geodata
+
+5. При запуске сервера в bat/.sh изменяем строку запуска:									   
+java -server -Dfile.encoding=UTF-8 -Xmx1G -cp config;./lib/* l2s.gameserver.GameServer (Или похожее)
+
+После config; добавляем ./lib/geoeng_l2s.jar;
+
+Должно получиться так:
+java -server -Dfile.encoding=UTF-8 -Xmx1G -cp config;./lib/geoeng_l2s.jar;./lib/* l2s.gameserver.GameServer (Или похожее)
+
+Сохраняем.
